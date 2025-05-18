@@ -1,10 +1,10 @@
-# 🌦️ Weather Data Visualization Web App
+# Weather Data Visualization Web App
 
 This is a Flask-based web application that visualizes weather data (Rainfall, Temperature, Wind, etc.) from a CSV file (`cleaned_data.csv`) using Matplotlib and Pandas. The app extracts and processes data by year and month to generate multiple interactive graphs rendered in a web interface.
 
 ---
 
-## 📊 Features
+## Features
 
 - Parses a CSV with weather data including Date, Rainfall, Temperature, Evaporation, Sunshine, and Wind Speed.
 - Generates bar charts for:
@@ -16,7 +16,7 @@ This is a Flask-based web application that visualizes weather data (Rainfall, Te
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**
 - **Flask**
@@ -26,7 +26,7 @@ This is a Flask-based web application that visualizes weather data (Rainfall, Te
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 .
@@ -39,7 +39,7 @@ This is a Flask-based web application that visualizes weather data (Rainfall, Te
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Install Dependencies
 ```bash
@@ -58,22 +58,22 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) to view the visualizations.
 
 ---
 
-## 🗃️ Sample Visualizations
+## Sample Visualizations
 
-- 📈 Rainfall over the years  
-- 🌡️ Monthly Min and Max Temperatures  
-- 🌬️ Wind and Evaporation Metrics  
+- Rainfall over the years  
+- Monthly Min and Max Temperatures  
+- Wind and Evaporation Metrics  
 
 ---
 
-## 📌 Note
+## Note
 
 Ensure your `Date` column in the CSV file is in the format: `dd-mm-yy`.  
 You can customize the graphs and years in `app.py`.
 
 ---
 
-## 📃 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
