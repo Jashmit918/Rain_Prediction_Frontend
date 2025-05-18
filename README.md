@@ -46,7 +46,7 @@ This is a Flask-based web application that visualizes weather data (Rainfall, Te
 pip install flask pandas matplotlib
 ```
 
-### 2. Make sure you have the `cleaned_data.csv` file in the project directory.
+### 2. Make sure you have the `final_cleaned_data.csv` file in the project directory.
 
 ### 3. Run the App
 ```bash
