@@ -1,4 +1,4 @@
-# Weather Data Visualization Web App
+# Weather Data Visualization
 
 This is a Flask-based web application that visualizes weather data (Rainfall, Temperature, Wind, etc.) from a CSV file (`final_cleaned_data.csv`) using Matplotlib and Pandas. The app extracts and processes data by year and month to generate multiple interactive graphs rendered in a web interface.
 
@@ -68,8 +68,8 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) to view the visualizations.
 
 ## Note
 
-Ensure your `Date` column in the CSV file is in the format: `dd-mm-yy`.  
-You can customize the graphs and years in `app.py`.
+- Ensure your `Date` column in the CSV file is in the format: `dd-mm-yy`.  
+- You can customize the graphs and years in `app.py`.
 
 ---
 
