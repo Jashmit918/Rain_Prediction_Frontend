@@ -22,7 +22,7 @@ This is a Flask-based web application that visualizes weather data (Rainfall, Te
 - **Flask**
 - **Pandas**
 - **Matplotlib**
-- **HTML (Jinja templates)**
+- **HTML**
 
 ---
 
@@ -34,7 +34,7 @@ This is a Flask-based web application that visualizes weather data (Rainfall, Te
 ├── cleaned_data.csv        # CSV file with weather data
 ├── templates/
 │   └── index.html          # HTML page that displays graphs
-└── static/                 # (Optional) For styling or custom scripts
+└── static/                 # (Optional) For styling
 ```
 
 ---
