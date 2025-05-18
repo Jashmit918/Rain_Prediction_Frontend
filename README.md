@@ -1,6 +1,6 @@
 # Weather Data Visualization Web App
 
-This is a Flask-based web application that visualizes weather data (Rainfall, Temperature, Wind, etc.) from a CSV file (`cleaned_data.csv`) using Matplotlib and Pandas. The app extracts and processes data by year and month to generate multiple interactive graphs rendered in a web interface.
+This is a Flask-based web application that visualizes weather data (Rainfall, Temperature, Wind, etc.) from a CSV file (`final_cleaned_data.csv`) using Matplotlib and Pandas. The app extracts and processes data by year and month to generate multiple interactive graphs rendered in a web interface.
 
 ---
 
