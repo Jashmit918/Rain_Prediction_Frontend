@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiple Graphs</title>
+</head>
+<body>
+    <h1>Generated Graphs</h1>
+    {% for graph in graphs %}
+        <img src="data:image/png;base64,{{ graph }}" 
+             alt="Graph" 
+             style="width: 600px; height: 400px; margin: 20px;" />
+    {% endfor %}
+</body>
+</html>
