@@ -14,7 +14,7 @@ def show_graphs():
     graphs = []
 
     #  import the csv
-    df = pd.read_csv("cleaned_data.csv")
+    df = pd.read_csv("final_cleaned_data.csv")
 
     # Convert the 'Date' column to datetime format
     df['Date'] = pd.to_datetime(df['Date'], format='%d-%m-%y')
